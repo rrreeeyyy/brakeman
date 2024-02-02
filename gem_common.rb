@@ -17,7 +17,7 @@ module Brakeman
     end
 
     def self.extended_dependencies spec
-      spec.add_dependency "terminal-table", "~>1.4"
+      spec.add_dependency "terminal-table", ">=2.0"
       spec.add_dependency "highline", "~>2.0"
       spec.add_dependency "erubis", "~>2.6"
       spec.add_dependency "haml", "~>5.1"
